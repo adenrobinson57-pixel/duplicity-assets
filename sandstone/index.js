@@ -1,4 +1,4 @@
-            ( () => {
+( () => {
                 "use strict";
                 var A = {
                     d: (g, B) => {
@@ -6410,7 +6410,7 @@
                 async function() {
                     location.hash && (S.value = location.hash.substring(1));
                     let A = "wss://wisp.mercurywork.shop/";
-                    location.hostname.endsWith(".pages.dev") || "http:" !== location.protocol && "https:" !== location.protocol || (A = location.origin.replace("http", "ws")),
+                    location.hostname.endsWith(".pages.dev") || "http:" !== location.protocol && "https:" !== location.protocol || (A = "wss://wisp.mercurywork.shop/"),
                     k.set_websocket(A),
                     p.textContent = `v${J.ver} (${J.hash})`,
                     V.value = A,
